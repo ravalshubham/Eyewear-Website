@@ -1,0 +1,617 @@
+/* navbar */
+
+.custom-navbar {
+    background-color: #222;
+    
+}
+
+.custom-navbar .nav-link {
+    color: white !important;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.custom-navbar .nav-link:hover {
+    color: #ff5252 !important;
+}
+
+/* Mobile View Alignment */
+@media (max-width: 991px) {
+    .navbar-nav {
+        text-align: left;
+    }
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 450px;
+    /* Keeps aspect ratio */
+    object-fit: cover;
+    /* Ensures image covers the slide */
+}
+
+
+
+/* Featured Categories Section */
+.featured-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.category-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* Product Card */
+.product-card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    
+    cursor: pointer;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+}
+
+.product-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.product-card:hover img {
+    transform: scale(1.1);
+}
+
+.product-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.product-price {
+    color: #007bff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Buttons */
+.btn-show {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.btn-show:hover {
+    background-color: #0056b3;
+}
+
+
+/* Best Seller Card Styling */
+.best-seller-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+/* Card Hover Effect */
+.best-seller-card:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+/* Image Styling */
+.best-seller-card img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Image Hover Effect */
+.best-seller-card:hover img {
+    transform: scale(1.08);
+}
+
+/* Product Name Styling */
+.best-seller-card h5 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Price Styling */
+.best-seller-card p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Button Styling */
+.btn-best-seller-cart {
+    background-color: #ff4d00;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+/* Button Hover Effect */
+.btn-best-seller-cart:hover {
+    background-color: #d63a00;
+    transform: scale(1.05);
+}
+
+
+
+
+
+/* New Arrivals Section */
+.new-arrivals-section {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+.new-arrival-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.new-arrival-item:hover {
+    transform: scale(1.05);
+}
+
+.new-arrival-item img {
+    width: 100%;
+    border-radius: 10px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.new-arrival-item:hover img {
+    opacity: 0.8;
+}
+
+.new-arrival-details {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.new-arrival-price {
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+.new-arrival-btn {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.new-arrival-btn:hover {
+    background: #218838;
+}
+
+.collection-header {
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 0;
+    font-size: 24px;
+}
+.nav-pills .nav-link {
+    font-size: 18px;
+    font-weight: bold;
+}
+.nav-pills .nav-link.active {
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.collection-item {
+    text-align: center;
+    margin-top: 20px;
+     background:darkgrey;
+}
+.collection-item img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    transition: transform 0.3s ease;
+}
+.collection-item img:hover {
+    transform: scale(1.1);
+}
+
+/* Customer Reviews Section */
+.customer-reviews-section {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+.review-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.review-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.review-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.review-profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.review-name {
+    font-weight: bold;
+    color: #333;
+}
+
+.review-stars {
+    color: #f39c12;
+}
+
+.review-text {
+    font-size: 14px;
+    color: #666;
+}
+
+
+ /* Contact Section */
+ .contact-container {
+    max-width: 700px;
+    margin: auto;
+    padding: 40px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease-in-out;
+}
+.contact-container:hover {
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+.form-control {
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+.form-control:focus {
+    border-color: #ff5f6d;
+    box-shadow: 0px 0px 8px rgba(255, 95, 109, 0.5);
+}
+.contact-btn {
+    background: #ff5f6d;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+.contact-btn:hover {
+    background: #e94e58;
+    transform: scale(1.05);
+}
+/* Footer Section */
+.custom-footer {
+    background-color: #222;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    /* Center-align everything for mobile */
+}
+
+
+/* footer */
+.custom-footer h5 {
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #f8f9fa;
+}
+
+.custom-footer p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.custom-footer a {
+    color: #bbb;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    transition: font-size 0.3s ease-in-out, text-decoration 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.custom-footer a:hover {
+    font-size: 16px;  /* Increases font size on hover */
+    text-decoration: underline;  /* Underlines the text */
+    color: #ff5252;  /* Changes color on hover */
+}
+
+
+/* Copyright Section */
+.custom-footer .copyright {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 13px;
+    border-top: 1px solid #444;
+    padding-top: 15px;
+    color: #bbb;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .custom-footer .row>div {
+        margin-bottom: 20px;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+}
+/* faq */
+.faq-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.faq-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.eyewear-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 40px;
+    background-color: #f8f9fa;
+}
+
+.eyewear-text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.eyewear-text h2 {
+    font-weight: bold;
+}
+
+.eyewear-text p {
+    color: #555;
+}
+
+.eyewear-text .btn {
+    background-color: #3b2ed0;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.eyewear-text .btn:hover {
+    background-color: #2519a9;
+}
+
+.eyewear-image {
+    flex: 1;
+    text-align: center;
+}
+
+.eyewear-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .eyewear-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .eyewear-text {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+
+.faq-section {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.faq-title {
+    font-weight: bold;
+}
+
+.accordion-button {
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: lightblue;
+}
+
+.btn-faq {
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+}
+
+.btn-faq:hover {
+    background-color: #138496;
+}
+
+.container1 {
+    margin-top: 50px;
+}
+
+.how-it-works h1 {
+    font-weight: bold;
+}
+
+.how-it-works p {
+    font-size: 18px;
+    line-height: 1.6;
+    font-style: italic;
+}
+
+
+.scroll-wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.scroll-wrapper img {
+     /* Keep width and height equal for a perfect circle */
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image scales properly */
+    display: block;
+}
+
+.scroll-container {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    padding: 5px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    /* Hide scrollbar for Firefox */
+}
+
+.scroll-container::-webkit-scrollbar {
+    display: none;
+    /* Hide scrollbar for Chrome, Safari */
+}
+
+.scroll-container .card {
+    min-width: 250px;
+    border-radius: 15px;
+}
+
+.scroll-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.scroll-button.left {
+    left: 5px;
+}
+
+.scroll-button.right {
+    right: 5px;
+}
+
+
+
+
+
+.feature-box {
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border-radius: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.feature-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.feature-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.feature-title {
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+/*our mission cards */
+
+.card {
+    width: 300px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Hover Effect */
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
